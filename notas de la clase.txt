@@ -1,0 +1,23 @@
+GIT repository (repositorio)
+- un lugar en la nube donde se va a almacenar mi código fuente.
+
+como podemos interactuar con el repositorio:
+1. linea de comando
+2. GUI (nosotros vamos a utilizar GitKraken)
+
+para "descargar" el repositorio a nuestra computadora...
+- ... usamos el comando "git clone http://<direccion de nuestro repo>"
+
+
+comandos:
+- clone: "descargar" repo
+- status: nos dice el estado actual de nuestro repositorio para la rama en la que nos encontramos
+
+conceptos clave:
+- ramas
+	- master/main --> la rama principal
+	- ramas secundarias --> se crean a partir de un punto en alguna rama con la intencion de integrar cambios desde una rama a otra.
+- local vs remote
+- pull
+- push
+
