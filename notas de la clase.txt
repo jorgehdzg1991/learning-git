@@ -17,9 +17,8 @@ conceptos clave:
 	- local: la rama localmente; nos sirve para trabajar en el repositorio localmente, en nuestras computadoras
 	- remote: la rama en la nube; nos sirve para resguardar nuestro trabajo en la nube.
 	- todas las ramas pueden tener una rama remota, pero forzosamente tienen una rama local
-	
-- pull
-- push
+- push: nos sirve para sincronizar la rama remota con lo que tenemos en la rama local (sirve para subir commits a la nube)
+- pull: nos sirve para sincronizar la rama local con lo que hay en la remota (sirve para descargar commits desde la nube)
 
 comandos:
 - clone: "descargar" repo
