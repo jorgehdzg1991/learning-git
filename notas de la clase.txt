@@ -14,6 +14,10 @@ conceptos clave:
 	- ramas secundarias --> se crean a partir de un punto en alguna rama con la intencion de integrar cambios desde una rama a otra.
 - commit: conjunto de cambios que se va a aplicar a una rama
 - local vs remote
+	- local: la rama localmente; nos sirve para trabajar en el repositorio localmente, en nuestras computadoras
+	- remote: la rama en la nube; nos sirve para resguardar nuestro trabajo en la nube.
+	- todas las ramas pueden tener una rama remota, pero forzosamente tienen una rama local
+	
 - pull
 - push
 
