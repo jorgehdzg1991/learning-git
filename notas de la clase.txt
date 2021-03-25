@@ -8,16 +8,22 @@ como podemos interactuar con el repositorio:
 para "descargar" el repositorio a nuestra computadora...
 - ... usamos el comando "git clone http://<direccion de nuestro repo>"
 
-
-comandos:
-- clone: "descargar" repo
-- status: nos dice el estado actual de nuestro repositorio para la rama en la que nos encontramos
-
 conceptos clave:
 - ramas
 	- master/main --> la rama principal
 	- ramas secundarias --> se crean a partir de un punto en alguna rama con la intencion de integrar cambios desde una rama a otra.
+- commit: conjunto de cambios que se va a aplicar a una rama
 - local vs remote
 - pull
 - push
+
+comandos:
+- clone: "descargar" repo
+- status: nos dice el estado actual de nuestro repositorio para la rama en la que nos encontramos
+- add: preparamos un archivo para hacer un commit. Ej. git add <nombre del archivo>
+- commit: creamos un nuevo commit. Ej. git commit -m "<mensaje del commit>"
+
+ejemplo para crear un commit:
+- git add nombre-de-archivo-txt || git add .
+- git commit -m "mensaje del commit"
 
