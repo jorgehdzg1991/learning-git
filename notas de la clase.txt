@@ -19,6 +19,7 @@ conceptos clave:
 	- todas las ramas pueden tener una rama remota, pero forzosamente tienen una rama local
 - push: nos sirve para sincronizar la rama remota con lo que tenemos en la rama local (sirve para subir commits a la nube)
 - pull: nos sirve para sincronizar la rama local con lo que hay en la remota (sirve para descargar commits desde la nube)
+- fetch: nos sirve para obtener información sobre el estado de la rama remota, incluido ramas, commits, etc.
 
 comandos:
 - clone: "descargar" repo
