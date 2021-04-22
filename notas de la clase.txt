@@ -31,3 +31,6 @@ ejemplo para crear un commit:
 - git add nombre-de-archivo-txt || git add .
 - git commit -m "mensaje del commit"
 
+GIT Avanzado
+
+- merge: es una operacion para combinar o mezclar los cambios de una rama a otra
