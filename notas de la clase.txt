@@ -38,3 +38,4 @@ GIT Avanzado
 		- nos posicionamos en la rama que va a recibir los cambios
 		- git merge <nombre de la rama>
 		- git push
+- Pull Request: Es una herramienta colaborativa que nos sirve para mezclar cambios de una rama secundaria a otra con funcionalidad añadida de que se puede hacer revisión de código.
