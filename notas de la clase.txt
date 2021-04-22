@@ -34,3 +34,7 @@ ejemplo para crear un commit:
 GIT Avanzado
 
 - merge: es una operacion para combinar o mezclar los cambios de una rama a otra
+	- Desde consola:
+		- nos posicionamos en la rama que va a recibir los cambios
+		- git merge <nombre de la rama>
+		- git push
