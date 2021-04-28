@@ -8,16 +8,34 @@ como podemos interactuar con el repositorio:
 para "descargar" el repositorio a nuestra computadora...
 - ... usamos el comando "git clone http://<direccion de nuestro repo>"
 
-
-comandos:
-- clone: "descargar" repo
-- status: nos dice el estado actual de nuestro repositorio para la rama en la que nos encontramos
-
 conceptos clave:
 - ramas
 	- master/main --> la rama principal
 	- ramas secundarias --> se crean a partir de un punto en alguna rama con la intencion de integrar cambios desde una rama a otra.
+- commit: conjunto de cambios que se va a aplicar a una rama
 - local vs remote
-- pull
-- push
+	- local: la rama localmente; nos sirve para trabajar en el repositorio localmente, en nuestras computadoras
+	- remote: la rama en la nube; nos sirve para resguardar nuestro trabajo en la nube.
+	- todas las ramas pueden tener una rama remota, pero forzosamente tienen una rama local
+- push: nos sirve para sincronizar la rama remota con lo que tenemos en la rama local (sirve para subir commits a la nube)
+- pull: nos sirve para sincronizar la rama local con lo que hay en la remota (sirve para descargar commits desde la nube)
+- fetch: nos sirve para obtener información sobre el estado de la rama remota, incluido ramas, commits, etc.
 
+comandos:
+- clone: "descargar" repo
+- status: nos dice el estado actual de nuestro repositorio para la rama en la que nos encontramos
+- add: preparamos un archivo para hacer un commit. Ej. git add <nombre del archivo>
+- commit: creamos un nuevo commit. Ej. git commit -m "<mensaje del commit>"
+
+ejemplo para crear un commit:
+- git add nombre-de-archivo-txt || git add .
+- git commit -m "mensaje del commit"
+
+GIT Avanzado
+
+- merge: es una operacion para combinar o mezclar los cambios de una rama a otra
+	- Desde consola:
+		- nos posicionamos en la rama que va a recibir los cambios
+		- git merge <nombre de la rama>
+		- git push
+- Pull Request: Es una herramienta colaborativa que nos sirve para mezclar cambios de una rama secundaria a otra con funcionalidad añadida de que se puede hacer revisión de código.
